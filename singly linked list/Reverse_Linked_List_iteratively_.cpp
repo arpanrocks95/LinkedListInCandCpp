@@ -60,7 +60,6 @@ void reverseIterative(struct node ** s1){
         current->next = prev;
         prev = current;
         current = next;
-
     }
     start = prev;
 }
